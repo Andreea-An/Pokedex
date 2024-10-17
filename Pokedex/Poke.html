@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Poke.css" />
+</head>
+<body>
+
+
+    <h1>Pokémon</h1>
+
+   
+ <div id="divMenu">
+            <ul>
+                <li>
+					<form class="wrap" method="get" action="#" >
+						<div class="search">
+						
+							<input id="searchInput" type="text" class="searchTerm" placeholder="What are you looking for?">
+							<button class="searchButton" onclick="rechercherPokemon()">
+								<i class="fa fa-search"></i>
+							</button>
+						</div>
+					</form>
+
+				</li>
+
+            </ul>
+        </div>
+    <div id="listPokemon">
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+    <table class = "organizecards">
+		<tr>
+			<td class>
+	<!--BEGIN PIKACHU-->
+		<div class = "nameimageinfo lightning">
+			<table class = "nameheaders">
+				<tr>
+					<td class = "basic" colspan = "3">Basic Pokemon</td>
+				</tr>
+				<tr>
+					<td class = "nameofanimal">Pikachu</td>
+					<td class = "hp">60 HP</td>
+					<td class = "typesign"> <img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_electric.png" width="30" height= "30"> </td>
+				</tr>
+			</table>
+			<img class = "headshot" src = "PP.jpg" alt = "Pikachu" width="300" height="200">
+			<p class = "description">Pokemon Souris Taille:0,4m, Poids:6,0kg.</p>
+			<div class = "infoonly">
+					<table class = "stats">
+						<tr>
+							<td class = "energy"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_normal.png" width = "20" height = "20"></td>
+							<td><span class = "label">Growl</span> <span class = "labeltext"> </span></td>
+							<td class = "damage">10</td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "stats">
+						<tr>
+							<td class = "energy"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_electric.png" width="25" height= "25"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_electric.png" width="25" height= "25"></td>
+							<td><span class = "label">Thundershock</span> <span class = "labeltext">Flip a coin. If tails, Pikachu does 10 damage to itself.</span></td>
+							<td class = "damage">30</td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "costs">
+						<tr class = "costheaders">
+							<td>weakness</td>
+							<td>resistance</td>
+							<td>retreat cost</td>
+						</tr>
+						<tr class = "costicons">
+							<td><img src="https://heatherketten.files.wordpress.com/2018/03/nrg_fire.png" width="20" height="20"></td>
+							<td></td>
+							<td><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_normal.png" width = "20" height = "20"></td>
+						</tr>
+					</table>
+
+			</div>
+		</div>
+		<!-- END PIKACHU -->
+			</td>
+			<td>
+
+<!-- BEGIN bulbizar -->
+<div class = "nameimageinfo grass">
+	<!--  name goes here -->
+	<table class = "nameheaders">
+		<tr>
+			<td class = "basic" colspan = "3">Basic Pokemon</td>
+		</tr>
+		<tr>
+			<td class = "nameofanimal">Bulbizar</td>
+			<td class = "hp">40 HP</td>
+			<td class = "typesign"> <img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_leaf.png" width="20" height= "20"> </td>
+		</tr>
+	</table>
+	<!--  image goes here -->
+	<img class = "headshot" src = "BB.jpg" alt = "Bulbizare" width="300" height="200">
+	<p class = "description">Seed Pokemon. Length: 2'4", Weight: 15 lbs.</p>
+	<div class = "infoonly">
+		<!-- interesting fact goes here -->
+		<ul>
+			<!--  list items go here -->
+			<table class = "stats">
+				<tr>
+					<td class = "energy"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_leaf.png" width = "20" height = "20"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_leaf.png" width = "20" height = "20"></td>
+					<td><span class = "label"><br>Leech Seed</span> <span class = "labeltext">Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbizare.<br> </span></td>
+					<td class = "damage">20</td>
+				</tr>
+			</table>
+			<hr>
+			<table class = "costs">
+				<tr class = "costheaders">
+					<td>weakness</td>
+					<td>resistance</td>
+					<td>retreat cost</td>
+				</tr>
+				<tr class = "costicons">
+					<td><img src="https://heatherketten.files.wordpress.com/2018/03/nrg_fire.png" width="20" height="20"></td>
+					<td></td>
+					<td><img src="https://heatherketten.files.wordpress.com/2018/03/nrg_normal.png" width = "20" height = "20"></td>
+				</tr>
+			</table>
+			<br>
+		<!-- description goes here -->
+		</div>
+</div>
+<!-- END Bulbizar -->
+
+	</td>
+	
+	<td>
+		<!-- BEGIN Carapuce -->
+		<div class = "nameimageinfo water">
+			<!--  name goes here -->
+			<table class = "nameheaders">
+				<tr>
+					<td class = "basic" colspan = "3">Basic Pokemon</td>
+				</tr>
+				<tr>
+					<td class = "nameofanimal">Carapuce</td>
+					<td class = "hp">40 HP</td>
+					<td class = "typesign"> <img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_water.png" width="20" height= "20"> </td>
+				</tr>
+			</table>
+			<!--  image goes here -->
+			<img class = "headshot" src = "CC.jpg" alt = "Carapuce" width="300" height="200">
+			<p class = "description">Tiny Turtle Pokemon. Length: 1'8", Weight: 20 lbs.</p>
+			<div class = "infoonly">
+				<!--  interesting fact goes here -->
+				<ul>
+					<!--  list items go here -->
+					<table class = "stats">
+						<tr>
+							<td class = "energy"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_water.png" width = "20" height = "20"></td>
+							<td><span class = "label">Bubble</span> <span class = "labeltext">Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</span></td>
+							<td class = "damage">10</td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "stats">
+						<tr>
+							<td class = "energy"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_water.png" width = "20" height = "20"><img src = "https://heatherketten.files.wordpress.com/2018/03/nrg_water.png" width = "20" height = "20"></td>
+							<td><span class = "label">Withdraw</span> <span class = "labeltext"> Flip a coin. If heads, no damage done to Squirtle during your opponent's next turn.</span></td>
+						</tr>
+					</table>
+					<hr>
+					<table class = "costs">
+						<tr class = "costheaders">
+							<td>weakness</td>
+							<td>resistance</td>
+							<td>retreat cost</td>
+						</tr>
+						<tr class = "costicons">
+							<td><img src="https://heatherketten.files.wordpress.com/2018/03/nrg_electric.png" width="20" height="20"></td>
+							<td></td>
+							<td><img src="https://heatherketten.files.wordpress.com/2018/03/nrg_normal.png" width = "20" height = "20"></td>
+						</tr>
+					</table>
+				<!-- your favorite animal's description goes here -->
+				</div>
+		</div>				<!-- END Carapuce -->
+	</td>
+</tr>
+</table>
+<div id="pokeInfoZ"></div>
+</body>
+</html>
